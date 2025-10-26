@@ -15,4 +15,6 @@ const users: User[] = [
   { name: "Bob", age: 25 },
 ];
 
+users.push({ name: "Bober", age: 3 });
+
 console.log(users);

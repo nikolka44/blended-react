@@ -1,11 +1,11 @@
 type Currency = "USD" | "EUR" | "UAH";
 
-interface ConvertCurrentcy {
+interface ConvertCurrencyProps {
   amount: number;
   currency: Currency;
 }
 
-function convertCurrency({ amount, currency }) {
+function convertCurrency({ amount, currency }: ConvertCurrencyProps) {
   console.log(`Converting ${amount} to ${currency}`);
 }
 convertCurrency({ amount: 150, currency: "USD" });

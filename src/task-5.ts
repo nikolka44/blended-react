@@ -1,4 +1,14 @@
-function createUser({ name, age }) {
+interface UserParams {
+  name: string;
+  age: number;
+}
+
+interface User {
+  name: string;
+  age: number;
+  isAdmin: boolean;
+}
+function createUser({ name, age }: UserParams): User {
   return {
     name,
     age,

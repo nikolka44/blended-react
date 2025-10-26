@@ -5,5 +5,5 @@ interface User {
   active: boolean;
 }
 
-const user: User = { id: "1", name: "Charlie", age: 25, active: true };
+let user: User = { id: "1", name: "Charlie", age: 25, active: true };
 console.log("user", user);

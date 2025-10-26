@@ -1,1 +1,3 @@
-const dimensions = [1920, 1080];
+const dimensions: number[] = [1920, 1080];
+
+console.log("first", dimensions);
